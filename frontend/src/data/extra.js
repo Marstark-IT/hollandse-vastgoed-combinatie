@@ -90,7 +90,7 @@ const nl = {
     {
       title: "Kosten en voorwaarden",
       items: [
-        { q: "Wat kost het mij om te verkopen?", a: "U betaalt aan ons geen courtage of bemiddelingskosten. Er zit geen makelaar tussen u en de koper." },
+        { q: "Wat kost het mij om te verkopen?", a: "U betaalt aan ons geen courtage of bemiddelingskosten. Er is geen tussenpersoon: u verkoopt direct aan de koper." },
         { q: "Is er een financieringsvoorbehoud?", a: "Wij kopen met eigen kapitaal binnen een vastgesteld mandaat. U heeft daardoor niet te maken met het voorbehoud van een bank." },
         { q: "Is mijn aanvraag vrijblijvend?", a: "Ja. Een aanvraag verplicht u tot niets. Pas na het tekenen van een koopovereenkomst ligt er een afspraak vast." },
       ],

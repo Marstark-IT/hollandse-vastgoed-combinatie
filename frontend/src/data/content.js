@@ -7,7 +7,7 @@ const nl = {
     home: {
       title: "Vastgoed verkopen aan een belegger | Hollands Vastgoedfonds",
       description:
-        "Verkoop uw woning, portefeuille of bedrijfspand direct aan Hollands Vastgoedfonds. Geen makelaar, geen courtage, discreet en snel duidelijkheid.",
+        "Verkoop uw woning, portefeuille of bedrijfspand direct aan Hollands Vastgoedfonds. Geen tussenpersoon, geen courtage, discreet en snel duidelijkheid.",
     },
     approach: {
       title: "Werkwijze: zo kopen wij vastgoed",
@@ -110,7 +110,7 @@ const nl = {
     regions: "Regio's",
   },
   cta: "Vastgoed aanbieden",
-  topbar: ["Directe koper", "Geen makelaarskosten", "Alle soorten vastgoed"],
+  topbar: ["Directe koper", "Geen tussenpersoon", "Alle soorten vastgoed"],
   why: {
     title: "Waarom verkopen aan Hollands Vastgoedfonds",
     mail: "Liever eerst een vraag stellen? Mail naar",
@@ -126,7 +126,7 @@ const nl = {
   },
 
   facts: [
-    { title: "Directe koper", text: "Wij kopen zelf. Wij zijn geen makelaar of bemiddelaar." },
+    { title: "Directe koper", text: "Wij kopen zelf. Wij zijn geen tussenpersoon." },
     { title: "Eigen kapitaal", text: "Aankopen binnen een vastgesteld investeringsmandaat." },
     { title: "Discreet", text: "Geen bezichtigingen met publiek, geen advertenties." },
     { title: "Eén aanspreekpunt", text: "Van eerste gesprek tot overdracht bij de notaris." },
@@ -162,7 +162,7 @@ const nl = {
     title: "U verkoopt aan de koper zelf",
     text: "Hollands Vastgoedfonds koopt vastgoed rechtstreeks, voor eigen rekening en risico. Daardoor krijgt u snel duidelijkheid over prijs, voorwaarden en het moment van overdracht.",
     points: [
-      "Geen makelaarscourtage",
+      "Geen tussenpersoon en geen courtage",
       "Geen financieringsvoorbehoud van derden",
       "Verhuurd of leeg, in elke staat",
       "Losse objecten en complete portefeuilles",
@@ -209,7 +209,7 @@ const nl = {
     },
     {
       q: "Wat kost het mij om te verkopen?",
-      a: "U betaalt aan ons geen courtage of bemiddelingskosten. Er zit geen makelaar tussen u en de koper.",
+      a: "U betaalt aan ons geen courtage of bemiddelingskosten. Er is geen tussenpersoon: u verkoopt direct aan de koper.",
     },
     {
       q: "Hoe snel heb ik duidelijkheid?",
@@ -325,7 +325,7 @@ const nl = {
       story: [
         "Hollands Vastgoedfonds is een onafhankelijke vastgoedinvesteringsmaatschappij, gericht op de aankoop, allocatie en het actief beheer van residentieel en bedrijfsmatig vastgoed. Vanuit een langetermijnstrategie investeren wij in zorgvuldig geselecteerde vastgoedmarkten in Nederland en daarbuiten.",
         "Onze focus omvat zowel losse objecten als omvangrijke portefeuilles binnen de residentiële, commerciële en light-industrial sector. Per investeringsperiode kiest onze Investment Committee de regio's en segmenten waar nieuw kapitaal naartoe gaat. Daarbij kijken wij onder meer naar liquiditeit van de markt, demografische ontwikkeling, de huurmarkt, vervangingswaarde en waardecreatie op lange termijn.",
-        "Wij zijn geen makelaar of bemiddelaar. Bij een aankoop treden wij zelf op als kopende partij, binnen het beschikbare mandaat. Van eerste analyse en taxatie tot due diligence, structurering en overdracht coördineren wij alles in eigen huis. Zo kunnen wij snel handelen wanneer een object past, zonder concessies aan onze investeringsdiscipline.",
+        "Wij zijn geen tussenpersoon. Bij een aankoop treden wij zelf op als kopende partij, binnen het beschikbare mandaat. Van eerste analyse en taxatie tot due diligence, structurering en overdracht coördineren wij alles in eigen huis. Zo kunnen wij snel handelen wanneer een object past, zonder concessies aan onze investeringsdiscipline.",
       ],
     },
     contact: {

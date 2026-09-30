@@ -57,7 +57,7 @@ export const articleMetadata = (a) =>
 export const regionMetadata = (r) =>
   buildMeta({
     title: r.slug === "nijmegen" ? "Vastgoed verkopen Nijmegen-Arnhem" : `Vastgoed verkopen in ${r.name}`,
-    description: `Vastgoed verkopen in ${r.name}? Hollands Vastgoedfonds koopt woningen, portefeuilles en bedrijfspanden direct. Geen makelaar, geen courtage.`,
+    description: `Vastgoed verkopen in ${r.name}? Hollands Vastgoedfonds koopt woningen, portefeuilles en bedrijfspanden direct. Geen tussenpersoon, geen courtage.`,
     path: regionPath(r.slug),
     locale: "nl",
     alternates: { nl: regionPath(r.slug) },

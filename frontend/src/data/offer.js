@@ -42,7 +42,7 @@ const nl = {
   },
   aside: {
     title: "Waarom Hollands Vastgoedfonds",
-    points: ["Wij kopen zelf, geen makelaar", "Geen courtage", "Geen financieringsvoorbehoud", "Verhuurd of leeg, in elke staat"],
+    points: ["Wij kopen zelf, geen tussenpersoon", "Geen courtage", "Geen financieringsvoorbehoud", "Verhuurd of leeg, in elke staat"],
     nextTitle: "Na uw aanvraag",
     next: ["Direct een bevestiging per e-mail", "Persoonlijk contact met een acquisitiemanager", "Een schriftelijk voorstel, u beslist in alle rust"],
     privacy: "Uw gegevens blijven vertrouwelijk en worden niet gedeeld met andere kopers of makelaars.",

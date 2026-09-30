@@ -5,7 +5,6 @@ import Process from "@/components/sections/Process";
 import Expectations from "@/components/sections/Expectations";
 import Values from "@/components/sections/Values";
 import RegionsTeaser from "@/components/sections/RegionsTeaser";
-import Compare from "@/components/sections/Compare";
 import CtaBox from "@/components/sections/CtaBox";
 import { IMAGES } from "@/data/site";
 import { t } from "@/data/content";
@@ -64,8 +63,7 @@ export default function ApproachView({ locale }) {
       <Expectations locale={locale} />
       <Values locale={locale} />
       {locale === "nl" && <RegionsTeaser locale={locale} />}
-      <Compare locale={locale} />
-      <div className="pt-20 md:pt-28" />
+      {locale !== "nl" && <div className="pt-20 md:pt-28" />}
       <CtaBox locale={locale} />
     </>
   );

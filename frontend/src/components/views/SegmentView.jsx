@@ -4,7 +4,6 @@ import PageHero from "@/components/sections/PageHero";
 import Criteria from "@/components/sections/Criteria";
 import Situations from "@/components/sections/Situations";
 import Process from "@/components/sections/Process";
-import Compare from "@/components/sections/Compare";
 import FaqAccordion from "@/components/sections/FaqAccordion";
 import SegmentGrid from "@/components/sections/SegmentGrid";
 import ArticleTeaser from "@/components/sections/ArticleTeaser";
@@ -66,7 +65,6 @@ export default function SegmentView({ locale, segment }) {
       <Criteria locale={locale} />
       <Situations locale={locale} />
       <Process locale={locale} />
-      <Compare locale={locale} />
       <FaqAccordion locale={locale} items={faq} title={e.segmentFaqTitle} />
 
       <section className="bg-soft pt-20 md:pt-28">

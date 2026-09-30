@@ -1,6 +1,5 @@
-// Additional section copy (both languages): seller situations, the comparison
-// with a sale through an agent, audiences, values, next steps, grouped FAQ and
-// per-segment FAQ. Article slugs point into data/articles.js (Dutch only).
+// Additional section copy (both languages): seller situations, audiences,
+// values, next steps, grouped FAQ and per-segment FAQ. Article slugs point into data/articles.js (Dutch only).
 
 const nl = {
   situations: {
@@ -14,20 +13,6 @@ const nl = {
       { icon: "wrench", title: "Leegstand of onderhoud", text: "Een pand dat leeg staat of veel onderhoud nodig heeft.", article: "leegstaand-pand-verkopen" },
     ],
     more: "Lees meer",
-  },
-  compare: {
-    title: "Direct verkopen of via een makelaar?",
-    colUs: "Hollands Vastgoedfonds",
-    colAgent: "Via een makelaar",
-    rows: [
-      ["Makelaarscourtage", "Geen", "Doorgaans een percentage van de prijs"],
-      ["Bezichtigingen", "Eén gesprek en één bezichtiging", "Vaak meerdere, met onbekenden"],
-      ["Financieringsvoorbehoud", "Geen voorbehoud van een bank", "Koper heeft vaak een voorbehoud"],
-      ["Verhuurd verkopen", "Normaal onderdeel van onze aankopen", "Beperkt aantal geïnteresseerde kopers"],
-      ["Openbaarheid", "Discreet, geen advertenties", "Openbaar op woningsites"],
-      ["Overdrachtsdatum", "In overleg met u", "Afhankelijk van de koper"],
-    ],
-    note: "Een openbare verkoop kan soms meer opleveren. Wij leggen u eerlijk uit wanneer dat het geval kan zijn.",
   },
   regionsTeaser: {
     title: "Wij kopen in heel Nederland",
@@ -155,20 +140,6 @@ const en = {
       { icon: "wrench", title: "Vacancy or maintenance", text: "A building that is vacant or needs a lot of work.", article: "leegstaand-pand-verkopen" },
     ],
     more: "Read more (Dutch)",
-  },
-  compare: {
-    title: "Sell directly or through an agent?",
-    colUs: "Hollands Vastgoedfonds",
-    colAgent: "Through an agent",
-    rows: [
-      ["Agent commission", "None", "Usually a percentage of the price"],
-      ["Viewings", "One conversation and one viewing", "Often several, with strangers"],
-      ["Financing condition", "No bank condition", "Buyers often have one"],
-      ["Selling with tenants", "A normal part of our acquisitions", "Few interested buyers"],
-      ["Publicity", "Discreet, no advertising", "Public on property portals"],
-      ["Transfer date", "Agreed with you", "Depends on the buyer"],
-    ],
-    note: "A public sale can sometimes achieve more. We will tell you honestly when that may be the case.",
   },
   regionsTeaser: {
     title: "We buy throughout the Netherlands",

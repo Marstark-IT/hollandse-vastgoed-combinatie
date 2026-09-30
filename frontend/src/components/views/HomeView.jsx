@@ -4,7 +4,6 @@ import DirectSplit from "@/components/sections/DirectSplit";
 import SegmentGrid from "@/components/sections/SegmentGrid";
 import Situations from "@/components/sections/Situations";
 import Process from "@/components/sections/Process";
-import Compare from "@/components/sections/Compare";
 import RegionSplit from "@/components/sections/RegionSplit";
 import FormSection from "@/components/sections/FormSection";
 import ArticleTeaser from "@/components/sections/ArticleTeaser";
@@ -24,7 +23,6 @@ export default function HomeView({ locale }) {
       <SegmentGrid locale={locale} />
       <Situations locale={locale} tone="soft" />
       <Process locale={locale} />
-      <Compare locale={locale} />
       <RegionSplit locale={locale} />
       <FormSection locale={locale} source="home-form" />
       <ArticleTeaser locale={locale} />

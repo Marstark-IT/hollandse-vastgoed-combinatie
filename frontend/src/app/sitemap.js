@@ -28,7 +28,7 @@ export default function sitemap() {
             : {}),
         }))
     );
-  const articles = ARTICLES.map((a) => ({ url: abs(articlePath(a.slug)), lastModified: new Date(a.date), changeFrequency: "monthly", priority: 0.7, images: img(a.image) }));
+  const articles = ARTICLES.map((a) => ({ url: abs(articlePath(a.slug)), lastModified: new Date(a.date), changeFrequency: "monthly", priority: 0.7, images: img(a.hero || a.image) }));
   const regions = REGIONS.map((r) => ({ url: abs(regionPath(r.slug)), lastModified: updated, changeFrequency: "monthly", priority: 0.7, images: img(r.image) }));
   return [...pages, ...articles, ...regions];
 }

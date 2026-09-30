@@ -19,6 +19,8 @@ export default function ArticleView({ article: a }) {
     <>
       <PageHero
         locale={locale}
+        image={IMAGES[a.hero]}
+        imageAlt=""
         title={a.title}
         text={a.description}
         trail={[

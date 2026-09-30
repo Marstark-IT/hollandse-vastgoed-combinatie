@@ -52,7 +52,7 @@ export function pageMetadata(key, locale) {
 }
 
 export const articleMetadata = (a) =>
-  buildMeta({ title: a.seoTitle || a.title, description: a.description, path: articlePath(a.slug), locale: "nl", alternates: { nl: articlePath(a.slug) }, image: a.image === "hero" ? "hero" : a.image, type: "article", published: a.date });
+  buildMeta({ title: a.seoTitle || a.title, description: a.description, path: articlePath(a.slug), locale: "nl", alternates: { nl: articlePath(a.slug) }, image: a.hero || a.image, type: "article", published: a.date });
 
 export const regionMetadata = (r) =>
   buildMeta({
@@ -157,7 +157,7 @@ export const articleLd = (a) => ({
   "@type": "Article",
   headline: a.title,
   description: a.description,
-  image: [abs(`/og/${a.image}.jpg`)],
+  image: [abs(`/og/${a.hero || a.image}.jpg`)],
   datePublished: a.date,
   dateModified: a.date,
   inLanguage: "nl-NL",

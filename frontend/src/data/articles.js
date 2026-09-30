@@ -4,6 +4,7 @@
 export const ARTICLES = [
   {
     slug: "verhuurde-woning-verkopen",
+    hero: "art-verhuurd",
     seoTitle: "Verhuurde woning verkopen",
     title: "Verhuurde woning verkopen: zo werkt het",
     description:
@@ -59,6 +60,7 @@ export const ARTICLES = [
   },
   {
     slug: "woningportefeuille-verkopen",
+    hero: "art-portefeuille",
     seoTitle: "Woningportefeuille verkopen",
     title: "Woningportefeuille verkopen aan één koper",
     description:
@@ -108,6 +110,7 @@ export const ARTICLES = [
   },
   {
     slug: "geerfd-vastgoed-verkopen",
+    hero: "art-geerfd",
     seoTitle: "Geërfde woning of pand verkopen",
     title: "Geërfde woning of pand verkopen",
     description:
@@ -150,6 +153,7 @@ export const ARTICLES = [
   },
   {
     slug: "stoppen-als-verhuurder",
+    hero: "art-stoppen",
     seoTitle: "Stoppen als verhuurder: uw opties",
     title: "Stoppen als verhuurder: uw opties op een rij",
     description:
@@ -198,6 +202,7 @@ export const ARTICLES = [
   },
   {
     slug: "bedrijfspand-verkopen",
+    hero: "art-bedrijfspand",
     seoTitle: "Bedrijfspand verkopen aan belegger",
     title: "Bedrijfspand verkopen aan een belegger",
     description:
@@ -240,6 +245,7 @@ export const ARTICLES = [
   },
   {
     slug: "verkopen-zonder-makelaar",
+    hero: "art-zonder-makelaar",
     seoTitle: "Vastgoed verkopen zonder makelaar",
     title: "Vastgoed verkopen zonder makelaar: voor- en nadelen",
     description:
@@ -291,6 +297,7 @@ export const ARTICLES = [
   },
   {
     slug: "koop-breekt-geen-huur",
+    hero: "art-koop-breekt",
     seoTitle: "Koop breekt geen huur uitgelegd",
     title: "Koop breekt geen huur: wat betekent dat?",
     description:
@@ -332,6 +339,7 @@ export const ARTICLES = [
   },
   {
     slug: "leegstaand-pand-verkopen",
+    hero: "art-leegstaand",
     seoTitle: "Leegstaand pand verkopen",
     title: "Leegstaand pand of pand met achterstallig onderhoud verkopen",
     description:

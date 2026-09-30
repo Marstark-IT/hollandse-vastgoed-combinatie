@@ -53,7 +53,7 @@ export const href = (key, locale) => ROUTES[key][locale] || ROUTES[key].nl;
 export const OG_IMAGE = {
   home: "hero-wide", approach: "region", buy: "street", residential: "residential",
   commercial: "commercial", industrial: "industrial", special: "special", about: "hero",
-  faq: "residential", contact: "street", offer: "hero-wide", kennisbank: "street", regions: "region",
+  faq: "residential", contact: "contact", offer: "offer", privacy: "legal", cookies: "legal", disclaimer: "legal", kennisbank: "street", regions: "region",
 };
 
 export const IMAGES = {
@@ -65,4 +65,16 @@ export const IMAGES = {
   special: "/images/special.webp",
   region: "/images/region.webp",
   street: "/images/street.webp",
+  // Page banners generated with Higgsfield (Nano Banana Pro)
+  "art-verhuurd": "/images/art-verhuurd.webp",
+  "art-portefeuille": "/images/art-portefeuille.webp",
+  "art-geerfd": "/images/art-geerfd.webp",
+  "art-stoppen": "/images/art-stoppen.webp",
+  "art-bedrijfspand": "/images/art-bedrijfspand.webp",
+  "art-zonder-makelaar": "/images/art-zonder-makelaar.webp",
+  "art-koop-breekt": "/images/art-koop-breekt.webp",
+  "art-leegstaand": "/images/art-leegstaand.webp",
+  contact: "/images/contact.webp",
+  legal: "/images/legal.webp",
+  offer: "/images/offer.webp",
 };

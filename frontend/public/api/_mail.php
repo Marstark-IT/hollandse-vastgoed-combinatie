@@ -1,6 +1,6 @@
 <?php
 // Outgoing mail through the real mailbox over authenticated SMTP, so Hostinger
-// DKIM-signs it and SPF/DMARC align with hollandsvastgoedfonds.com. Plain PHP
+// DKIM-signs it and SPF/DMARC align with hollandsevastgoedcombinatie.nl. Plain PHP
 // mail() is not DKIM-signed and fails DMARC, which sends lead notifications and
 // seller confirmations to spam. Falls back to mail() if SMTP is not configured
 // or fails. Config (~/hollands_data/config.php): smtp_host, smtp_port,
@@ -46,7 +46,7 @@ function hvf_smtp_send(array $cfg, string $to, string $encodedSubject, string $b
     };
 
     $cmd('', [220]);
-    $cmd('EHLO hollandsvastgoedfonds.com', [250]);
+    $cmd('EHLO hollandsevastgoedcombinatie.nl', [250]);
     $cmd('AUTH LOGIN', [334]);
     $cmd(base64_encode($user), [334]);
     $cmd(base64_encode((string)$cfg['smtp_pass']), [235]);
@@ -55,7 +55,7 @@ function hvf_smtp_send(array $cfg, string $to, string $encodedSubject, string $b
     $cmd('DATA', [354]);
 
     $msg = 'Date: ' . date(DATE_RFC2822) . "\r\n"
-        . 'Message-ID: <' . bin2hex(random_bytes(12)) . '@hollandsvastgoedfonds.com>' . "\r\n"
+        . 'Message-ID: <' . bin2hex(random_bytes(12)) . '@hollandsevastgoedcombinatie.nl>' . "\r\n"
         . 'To: <' . $to . ">\r\n"
         . 'Subject: ' . $encodedSubject . "\r\n"
         . rtrim($headers, "\r\n") . "\r\n"

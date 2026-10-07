@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 // Visual system modelled on sonsrealestate.nl (solid photo hero with white card,
 // coloured USP band, overlay service cards, process band, dark footer), in the
-// Hollands Vastgoedfonds palette. Change `brand`/`band` to re-colour the site.
+// Hollandse Vastgoed Combinatie palette. Change `brand`/`band` to re-colour the site.
 export default {
   content: ["./src/**/*.{js,jsx}"],
   theme: {

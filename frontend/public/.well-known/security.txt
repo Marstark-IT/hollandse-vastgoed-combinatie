@@ -1,4 +1,4 @@
-Contact: mailto:hello@hollandsvastgoedfonds.com
+Contact: mailto:hello@hollandsevastgoedcombinatie.nl
 Expires: 2027-09-24T00:00:00.000Z
 Preferred-Languages: nl, en
-Canonical: https://hollandsvastgoedfonds.com/.well-known/security.txt
+Canonical: https://hollandsevastgoedcombinatie.nl/.well-known/security.txt

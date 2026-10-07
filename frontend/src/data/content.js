@@ -3,16 +3,16 @@
 
 const nl = {
   meta: {
-    siteName: "Hollands Vastgoedfonds",
+    siteName: "Hollandse Vastgoed Combinatie",
     home: {
-      title: "Vastgoed verkopen aan een belegger | Hollands Vastgoedfonds",
+      title: "Vastgoed verkopen aan een belegger | Hollandse Vastgoed Combinatie",
       description:
-        "Verkoop uw woning, portefeuille of bedrijfspand direct aan Hollands Vastgoedfonds. Geen tussenpersoon, geen courtage, discreet en snel duidelijkheid.",
+        "Verkoop uw woning, portefeuille of bedrijfspand direct aan Hollandse Vastgoed Combinatie. Geen tussenpersoon, geen courtage, discreet en snel duidelijkheid.",
     },
     approach: {
       title: "Werkwijze: zo kopen wij vastgoed",
       description:
-        "Zo koopt Hollands Vastgoedfonds vastgoed: regionale kapitaalallocatie, eigen analyse en due diligence, en een overdracht bij de notaris.",
+        "Zo koopt Hollandse Vastgoed Combinatie vastgoed: regionale kapitaalallocatie, eigen analyse en due diligence, en een overdracht bij de notaris.",
     },
     buy: {
       title: "Welk vastgoed wij kopen",
@@ -32,7 +32,7 @@ const nl = {
     industrial: {
       title: "Bedrijfspand of hal verkopen",
       description:
-        "Bedrijfshal, light-industrial of logistiek vastgoed verkopen aan Hollands Vastgoedfonds. Ook met sale-and-leaseback. Direct en zonder makelaar.",
+        "Bedrijfshal, light-industrial of logistiek vastgoed verkopen aan Hollandse Vastgoed Combinatie. Ook met sale-and-leaseback. Direct en zonder makelaar.",
     },
     special: {
       title: "Pand met potentieel verkopen",
@@ -42,47 +42,47 @@ const nl = {
     about: {
       title: "Over ons: onafhankelijke belegger",
       description:
-        "Hollands Vastgoedfonds is een onafhankelijke vastgoedinvesteerder met een langetermijnstrategie. Wij kopen vastgoed direct en voor eigen rekening.",
+        "Hollandse Vastgoed Combinatie is een onafhankelijke vastgoedinvesteerder met een langetermijnstrategie. Wij kopen vastgoed direct en voor eigen rekening.",
     },
     faq: {
       title: "Veelgestelde vragen over verkoop",
       description:
-        "Antwoorden over vastgoed verkopen aan Hollands Vastgoedfonds: kosten, verhuurd vastgoed, huurders, de notaris, snelheid en uw privacy.",
+        "Antwoorden over vastgoed verkopen aan Hollandse Vastgoed Combinatie: kosten, verhuurd vastgoed, huurders, de notaris, snelheid en uw privacy.",
     },
     contact: {
       title: "Contact opnemen",
       description:
-        "Neem contact op met Hollands Vastgoedfonds. Bied uw vastgoed vrijblijvend aan via het formulier of stel uw vraag per e-mail. Wij reageren persoonlijk.",
+        "Neem contact op met Hollandse Vastgoed Combinatie. Bied uw vastgoed vrijblijvend aan via het formulier of stel uw vraag per e-mail. Wij reageren persoonlijk.",
     },
     offer: {
       title: "Vastgoed aanbieden",
       description:
-        "Bied uw woning, portefeuille of bedrijfspand vrijblijvend aan bij Hollands Vastgoedfonds. Drie korte stappen en direct een bevestiging per e-mail.",
+        "Bied uw woning, portefeuille of bedrijfspand vrijblijvend aan bij Hollandse Vastgoed Combinatie. Drie korte stappen en direct een bevestiging per e-mail.",
     },
     thanks: {
       title: "Bedankt voor uw aanvraag",
       description:
-        "Bedankt voor uw aanvraag bij Hollands Vastgoedfonds. Een acquisitiemanager neemt persoonlijk contact met u op over uw object en de volgende stappen.",
+        "Bedankt voor uw aanvraag bij Hollandse Vastgoed Combinatie. Een acquisitiemanager neemt persoonlijk contact met u op over uw object en de volgende stappen.",
     },
     privacy: {
       title: "Privacyverklaring",
       description:
-        "Lees hoe Hollands Vastgoedfonds omgaat met uw persoonsgegevens: welke gegevens wij verwerken, waarom, hoe lang wij ze bewaren en wat uw rechten zijn.",
+        "Lees hoe Hollandse Vastgoed Combinatie omgaat met uw persoonsgegevens: welke gegevens wij verwerken, waarom, hoe lang wij ze bewaren en wat uw rechten zijn.",
     },
     cookies: {
       title: "Cookieverklaring",
       description:
-        "Welke cookies hollandsvastgoedfonds.com gebruikt: zonder toestemming geen tracking. Onze eigen statistieken werken zonder cookies en zonder IP-adressen.",
+        "Welke cookies hollandsevastgoedcombinatie.nl gebruikt: zonder toestemming geen tracking. Onze eigen statistieken werken zonder cookies en zonder IP-adressen.",
     },
     disclaimer: {
       title: "Disclaimer",
       description:
-        "De voorwaarden voor het gebruik van hollandsvastgoedfonds.com: over de informatie op deze website, intellectueel eigendom en het ontbreken van een aanbod.",
+        "De voorwaarden voor het gebruik van hollandsevastgoedcombinatie.nl: over de informatie op deze website, intellectueel eigendom en het ontbreken van een aanbod.",
     },
     notFound: {
       title: "Pagina niet gevonden",
       description:
-        "Deze pagina bestaat niet (meer). Ga naar de homepage van Hollands Vastgoedfonds of bekijk welk vastgoed wij kopen en hoe onze werkwijze eruitziet.",
+        "Deze pagina bestaat niet (meer). Ga naar de homepage van Hollandse Vastgoed Combinatie of bekijk welk vastgoed wij kopen en hoe onze werkwijze eruitziet.",
     },
     kennisbank: {
       title: "Kennisbank: vastgoed verkopen",
@@ -92,7 +92,7 @@ const nl = {
     regions: {
       title: "Regio's waar wij vastgoed kopen",
       description:
-        "Hollands Vastgoedfonds koopt vastgoed in heel Nederland, onder meer in Amsterdam, Rotterdam, Den Haag, Utrecht, Eindhoven, Groningen en Tilburg.",
+        "Hollandse Vastgoed Combinatie koopt vastgoed in heel Nederland, onder meer in Amsterdam, Rotterdam, Den Haag, Utrecht, Eindhoven, Groningen en Tilburg.",
     },
   },
 
@@ -112,7 +112,7 @@ const nl = {
   cta: "Vastgoed aanbieden",
   topbar: ["Directe koper", "Geen tussenpersoon", "Alle soorten vastgoed"],
   why: {
-    title: "Waarom verkopen aan Hollands Vastgoedfonds",
+    title: "Waarom verkopen aan Hollandse Vastgoed Combinatie",
     mail: "Liever eerst een vraag stellen? Mail naar",
   },
   more: "Lees meer",
@@ -160,7 +160,7 @@ const nl = {
 
   direct: {
     title: "U verkoopt aan de koper zelf",
-    text: "Hollands Vastgoedfonds koopt vastgoed rechtstreeks, voor eigen rekening en risico. Daardoor krijgt u snel duidelijkheid over prijs, voorwaarden en het moment van overdracht.",
+    text: "Hollandse Vastgoed Combinatie koopt vastgoed rechtstreeks, voor eigen rekening en risico. Daardoor krijgt u snel duidelijkheid over prijs, voorwaarden en het moment van overdracht.",
     points: [
       "Geen tussenpersoon en geen courtage",
       "Geen financieringsvoorbehoud van derden",
@@ -197,7 +197,7 @@ const nl = {
   faq: [
     {
       q: "Bent u een makelaar?",
-      a: "Nee. Hollands Vastgoedfonds koopt vastgoed voor eigen rekening en risico. Wij treden zelf op als kopende partij en brengen u niet in contact met andere kopers.",
+      a: "Nee. Hollandse Vastgoed Combinatie koopt vastgoed voor eigen rekening en risico. Wij treden zelf op als kopende partij en brengen u niet in contact met andere kopers.",
     },
     {
       q: "Welk vastgoed kopen jullie?",
@@ -304,7 +304,7 @@ const nl = {
         "Analyse, taxatie, due diligence, structurering en closing coördineren wij zelf. U heeft één aanspreekpunt en er zit niemand tussen.",
     },
     about: {
-      title: "Over Hollands Vastgoedfonds",
+      title: "Over Hollandse Vastgoed Combinatie",
       text: "Een onafhankelijke vastgoedinvesteerder, gericht op de aankoop en het actief beheer van residentieel en bedrijfsmatig vastgoed.",
       blocks: [
         {
@@ -323,7 +323,7 @@ const nl = {
       closing: "Kapitaal met discipline ingezet. Vastgoed met overtuiging gekocht.",
       storyTitle: "Hoe wij investeren",
       story: [
-        "Hollands Vastgoedfonds is een onafhankelijke vastgoedinvesteringsmaatschappij, gericht op de aankoop, allocatie en het actief beheer van residentieel en bedrijfsmatig vastgoed. Vanuit een langetermijnstrategie investeren wij in zorgvuldig geselecteerde vastgoedmarkten in Nederland en daarbuiten.",
+        "Hollandse Vastgoed Combinatie is een onafhankelijke vastgoedinvesteringsmaatschappij, gericht op de aankoop, allocatie en het actief beheer van residentieel en bedrijfsmatig vastgoed. Vanuit een langetermijnstrategie investeren wij in zorgvuldig geselecteerde vastgoedmarkten in Nederland en daarbuiten.",
         "Onze focus omvat zowel losse objecten als omvangrijke portefeuilles binnen de residentiële, commerciële en light-industrial sector. Per investeringsperiode kiest onze Investment Committee de regio's en segmenten waar nieuw kapitaal naartoe gaat. Daarbij kijken wij onder meer naar liquiditeit van de markt, demografische ontwikkeling, de huurmarkt, vervangingswaarde en waardecreatie op lange termijn.",
         "Wij zijn geen tussenpersoon. Bij een aankoop treden wij zelf op als kopende partij, binnen het beschikbare mandaat. Van eerste analyse en taxatie tot due diligence, structurering en overdracht coördineren wij alles in eigen huis. Zo kunnen wij snel handelen wanneer een object past, zonder concessies aan onze investeringsdiscipline.",
       ],
@@ -400,7 +400,7 @@ const nl = {
     privacy: [
       {
         h: "Wie wij zijn",
-        p: "Hollands Vastgoedfonds is verantwoordelijk voor de verwerking van persoonsgegevens via deze website. U bereikt ons via hello@hollandsvastgoedfonds.com.",
+        p: "Hollandse Vastgoed Combinatie is verantwoordelijk voor de verwerking van persoonsgegevens via deze website. U bereikt ons via hello@hollandsevastgoedcombinatie.nl.",
       },
       {
         h: "Welke gegevens wij verwerken",
@@ -436,7 +436,7 @@ const nl = {
       },
       {
         h: "Uw rechten",
-        p: "U heeft het recht op inzage, correctie, verwijdering en beperking van uw gegevens, en het recht om uw toestemming in te trekken. Stuur daarvoor een e-mail naar hello@hollandsvastgoedfonds.com. Bent u niet tevreden, dan kunt u een klacht indienen bij de Autoriteit Persoonsgegevens.",
+        p: "U heeft het recht op inzage, correctie, verwijdering en beperking van uw gegevens, en het recht om uw toestemming in te trekken. Stuur daarvoor een e-mail naar hello@hollandsevastgoedcombinatie.nl. Bent u niet tevreden, dan kunt u een klacht indienen bij de Autoriteit Persoonsgegevens.",
       },
     ],
     cookies: [
@@ -464,11 +464,11 @@ const nl = {
       },
       {
         h: "Geen aanbod",
-        p: "Deze website is geen aanbod tot koop en geen beleggingsadvies. Hollands Vastgoedfonds haalt via deze website geen kapitaal op bij particulieren. Een aankoop komt pas tot stand na schriftelijke overeenkomst.",
+        p: "Deze website is geen aanbod tot koop en geen beleggingsadvies. Hollandse Vastgoed Combinatie haalt via deze website geen kapitaal op bij particulieren. Een aankoop komt pas tot stand na schriftelijke overeenkomst.",
       },
       {
         h: "Intellectueel eigendom",
-        p: "Teksten, beelden en het logo op deze website zijn eigendom van Hollands Vastgoedfonds. Gebruik zonder toestemming is niet toegestaan.",
+        p: "Teksten, beelden en het logo op deze website zijn eigendom van Hollandse Vastgoed Combinatie. Gebruik zonder toestemming is niet toegestaan.",
       },
     ],
   },
@@ -476,16 +476,16 @@ const nl = {
 
 const en = {
   meta: {
-    siteName: "Hollands Vastgoedfonds",
+    siteName: "Hollandse Vastgoed Combinatie",
     home: {
-      title: "Sell property to a direct buyer | Hollands Vastgoedfonds",
+      title: "Sell property to a direct buyer | Hollandse Vastgoed Combinatie",
       description:
-        "Sell your home, portfolio or business premises directly to Hollands Vastgoedfonds. No agent, no commission, discreet and quick clarity on price.",
+        "Sell your home, portfolio or business premises directly to Hollandse Vastgoed Combinatie. No agent, no commission, discreet and quick clarity on price.",
     },
     approach: {
       title: "Our approach to buying property",
       description:
-        "How Hollands Vastgoedfonds buys property: regional capital allocation, in-house analysis and due diligence, and completion through a notary.",
+        "How Hollandse Vastgoed Combinatie buys property: regional capital allocation, in-house analysis and due diligence, and completion through a notary.",
     },
     buy: {
       title: "What property we buy",
@@ -505,7 +505,7 @@ const en = {
     industrial: {
       title: "Sell industrial property",
       description:
-        "Sell a business unit, light-industrial or logistics property to Hollands Vastgoedfonds, including sale-and-leaseback. Direct and without an agent.",
+        "Sell a business unit, light-industrial or logistics property to Hollandse Vastgoed Combinatie, including sale-and-leaseback. Direct and without an agent.",
     },
     special: {
       title: "Sell property with potential",
@@ -515,47 +515,47 @@ const en = {
     about: {
       title: "About us: independent investor",
       description:
-        "Hollands Vastgoedfonds is an independent real estate investor with a long-term strategy. We buy property directly and for our own account in the Netherlands.",
+        "Hollandse Vastgoed Combinatie is an independent real estate investor with a long-term strategy. We buy property directly and for our own account in the Netherlands.",
     },
     faq: {
       title: "Questions about selling",
       description:
-        "Answers about selling property to Hollands Vastgoedfonds: costs, let property, tenants, the notary, timing and how we handle your personal data.",
+        "Answers about selling property to Hollandse Vastgoed Combinatie: costs, let property, tenants, the notary, timing and how we handle your personal data.",
     },
     contact: {
       title: "Contact us",
       description:
-        "Contact Hollands Vastgoedfonds. Offer your property without obligation using the form, or email us your question. Every request is handled personally.",
+        "Contact Hollandse Vastgoed Combinatie. Offer your property without obligation using the form, or email us your question. Every request is handled personally.",
     },
     offer: {
       title: "Offer your property",
       description:
-        "Offer your home, portfolio or business premises to Hollands Vastgoedfonds without obligation. Three short steps and an instant confirmation by email.",
+        "Offer your home, portfolio or business premises to Hollandse Vastgoed Combinatie without obligation. Three short steps and an instant confirmation by email.",
     },
     thanks: {
       title: "Thank you for your request",
       description:
-        "Thank you for your request to Hollands Vastgoedfonds. An acquisition manager will contact you personally about your property and the next steps.",
+        "Thank you for your request to Hollandse Vastgoed Combinatie. An acquisition manager will contact you personally about your property and the next steps.",
     },
     privacy: {
       title: "Privacy statement",
       description:
-        "How Hollands Vastgoedfonds handles your personal data: what we process and why, how long we keep it, who we share it with and what your rights are.",
+        "How Hollandse Vastgoed Combinatie handles your personal data: what we process and why, how long we keep it, who we share it with and what your rights are.",
     },
     cookies: {
       title: "Cookie statement",
       description:
-        "Which cookies hollandsvastgoedfonds.com uses: no tracking without consent. Our own website statistics work without cookies and without IP addresses.",
+        "Which cookies hollandsevastgoedcombinatie.nl uses: no tracking without consent. Our own website statistics work without cookies and without IP addresses.",
     },
     disclaimer: {
       title: "Website disclaimer",
       description:
-        "Terms for using hollandsvastgoedfonds.com: the information on this website, intellectual property and the fact that this website is not an offer.",
+        "Terms for using hollandsevastgoedcombinatie.nl: the information on this website, intellectual property and the fact that this website is not an offer.",
     },
     notFound: {
       title: "Page not found",
       description:
-        "This page does not exist. Go to the Hollands Vastgoedfonds homepage, see which property we buy or read how our approach to buying property works.",
+        "This page does not exist. Go to the Hollandse Vastgoed Combinatie homepage, see which property we buy or read how our approach to buying property works.",
     },
     kennisbank: {
       title: "Knowledge base",
@@ -565,7 +565,7 @@ const en = {
     regions: {
       title: "Regions",
       description:
-        "Hollands Vastgoedfonds buys property throughout the Netherlands, including Amsterdam, Rotterdam, The Hague, Utrecht, Eindhoven, Groningen and Tilburg.",
+        "Hollandse Vastgoed Combinatie buys property throughout the Netherlands, including Amsterdam, Rotterdam, The Hague, Utrecht, Eindhoven, Groningen and Tilburg.",
     },
   },
 
@@ -585,7 +585,7 @@ const en = {
   cta: "Offer your property",
   topbar: ["Direct buyer", "No agent fees", "All property types"],
   why: {
-    title: "Why sell to Hollands Vastgoedfonds",
+    title: "Why sell to Hollandse Vastgoed Combinatie",
     mail: "Prefer to ask a question first? Email",
   },
   more: "Read more",
@@ -633,7 +633,7 @@ const en = {
 
   direct: {
     title: "You sell to the buyer itself",
-    text: "Hollands Vastgoedfonds buys property directly, for its own account and risk. That gives you quick clarity on price, terms and the moment of transfer.",
+    text: "Hollandse Vastgoed Combinatie buys property directly, for its own account and risk. That gives you quick clarity on price, terms and the moment of transfer.",
     points: [
       "No agent commission",
       "No third-party financing condition",
@@ -670,7 +670,7 @@ const en = {
   faq: [
     {
       q: "Are you an estate agent?",
-      a: "No. Hollands Vastgoedfonds buys property for its own account and risk. We act as the buyer ourselves and do not pass you on to other buyers.",
+      a: "No. Hollandse Vastgoed Combinatie buys property for its own account and risk. We act as the buyer ourselves and do not pass you on to other buyers.",
     },
     {
       q: "What property do you buy?",
@@ -777,7 +777,7 @@ const en = {
         "Analysis, valuation, due diligence, structuring and closing are coordinated by us. You have one point of contact and nobody in between.",
     },
     about: {
-      title: "About Hollands Vastgoedfonds",
+      title: "About Hollandse Vastgoed Combinatie",
       text: "An independent real estate investor focused on acquiring and actively managing residential and commercial property.",
       blocks: [
         {
@@ -796,7 +796,7 @@ const en = {
       closing: "Capital allocated with discipline. Real estate acquired with conviction.",
       storyTitle: "How we invest",
       story: [
-        "Hollands Vastgoedfonds is an independent real estate investment company focused on acquiring, allocating capital to and actively managing residential and commercial property. With a long-term strategy we invest in carefully selected property markets in the Netherlands and beyond.",
+        "Hollandse Vastgoed Combinatie is an independent real estate investment company focused on acquiring, allocating capital to and actively managing residential and commercial property. With a long-term strategy we invest in carefully selected property markets in the Netherlands and beyond.",
         "Our focus covers single assets as well as large portfolios in the residential, commercial and light-industrial sectors. For each investment period our Investment Committee decides which regions and segments receive new capital, weighing market liquidity, demographic development, the rental market, replacement value and long-term value creation.",
         "We are not an agent or intermediary. When we buy, we act as the buyer ourselves, within the available mandate. From first analysis and valuation to due diligence, structuring and completion, everything is coordinated in-house. That lets us move quickly when a property fits, without compromising our investment discipline.",
       ],
@@ -873,7 +873,7 @@ const en = {
     privacy: [
       {
         h: "Who we are",
-        p: "Hollands Vastgoedfonds is responsible for processing personal data through this website. You can reach us at hello@hollandsvastgoedfonds.com.",
+        p: "Hollandse Vastgoed Combinatie is responsible for processing personal data through this website. You can reach us at hello@hollandsevastgoedcombinatie.nl.",
       },
       {
         h: "What data we process",
@@ -909,7 +909,7 @@ const en = {
       },
       {
         h: "Your rights",
-        p: "You have the right to access, correct, delete and restrict your data, and to withdraw your consent. Email hello@hollandsvastgoedfonds.com to do so. If you are not satisfied, you can file a complaint with the Dutch Data Protection Authority (Autoriteit Persoonsgegevens).",
+        p: "You have the right to access, correct, delete and restrict your data, and to withdraw your consent. Email hello@hollandsevastgoedcombinatie.nl to do so. If you are not satisfied, you can file a complaint with the Dutch Data Protection Authority (Autoriteit Persoonsgegevens).",
       },
     ],
     cookies: [
@@ -937,11 +937,11 @@ const en = {
       },
       {
         h: "No offer",
-        p: "This website is not an offer to purchase and not investment advice. Hollands Vastgoedfonds does not raise capital from private individuals through this website. A purchase is only concluded by written agreement.",
+        p: "This website is not an offer to purchase and not investment advice. Hollandse Vastgoed Combinatie does not raise capital from private individuals through this website. A purchase is only concluded by written agreement.",
       },
       {
         h: "Intellectual property",
-        p: "Texts, images and the logo on this website are the property of Hollands Vastgoedfonds. Use without permission is not allowed.",
+        p: "Texts, images and the logo on this website are the property of Hollandse Vastgoed Combinatie. Use without permission is not allowed.",
       },
     ],
   },

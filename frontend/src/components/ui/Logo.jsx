@@ -5,9 +5,9 @@ export default function Logo({ light = false, className = "h-11 w-auto sm:h-[54p
   return (
     <img
       src={light ? "/brand/logo-white.png" : "/brand/logo-dark.png"}
-      alt="Hollands Vastgoedfonds"
+      alt="Hollandse Vastgoed Combinatie"
       width={600}
-      height={188}
+      height={165}
       className={className}
       decoding="async"
       {...(priority ? { fetchPriority: "high" } : { loading: "lazy" })}

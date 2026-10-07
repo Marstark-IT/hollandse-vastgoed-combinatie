@@ -1,5 +1,5 @@
 <?php
-// CSV export of stored leads: https://hollandsvastgoedfonds.com/api/leads.php
+// CSV export of stored leads: https://hollandsevastgoedcombinatie.nl/api/leads.php
 // The browser asks for a login: any username, password = export_key from
 // config.php. HTTP Basic instead of ?key= so the key never lands in access
 // logs, CDN logs or browser history.

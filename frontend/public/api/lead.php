@@ -87,8 +87,8 @@ $dataDir = dirname(__DIR__, 4) . '/hollands_data';
 if (!is_dir($dataDir)) @mkdir($dataDir, 0700, true);
 $cfgFile = $dataDir . '/config.php';
 $cfg = is_file($cfgFile) ? (array)(include $cfgFile) : [];
-$notifyTo = $cfg['notify_to'] ?? 'hello@hollandsvastgoedfonds.com';
-$mailFrom = $cfg['mail_from'] ?? 'hello@hollandsvastgoedfonds.com';
+$notifyTo = $cfg['notify_to'] ?? 'hello@hollandsevastgoedcombinatie.nl';
+$mailFrom = $cfg['mail_from'] ?? 'hello@hollandsevastgoedcombinatie.nl';
 
 // REMOTE_ADDR, never X-Forwarded-For: LiteSpeed already resolves the real
 // client behind Hostinger's CDN, while XFF's first entry is whatever the client
@@ -152,7 +152,7 @@ if ($isNew) {
     $replyTo = str_replace(["\r", "\n"], '', $lead['email']);
 
     // 1. Notification to the team.
-    $body = "Nieuwe aanvraag #{$leadId} via hollandsvastgoedfonds.com\n\n"
+    $body = "Nieuwe aanvraag #{$leadId} via hollandsevastgoedcombinatie.nl\n\n"
         . "Type:      {$labels[$lead['type']]}\n"
         . "Locatie:   {$lead['location']}\n"
         . "Naam:      {$lead['name']}\n"
@@ -171,7 +171,7 @@ if ($isNew) {
         . "Herkomst:  {$src}" . ($attr['utm_campaign'] ? " / {$attr['utm_campaign']}" : '') . "\n"
         . "Landing:   {$attr['landing_page']}\n"
         . "Formulier: {$lead['source']} ({$lead['page']})\n";
-    $headers = "From: Hollands Vastgoedfonds <{$mailFrom}>\r\nReply-To: {$replyTo}\r\n"
+    $headers = "From: Hollandse Vastgoed Combinatie <{$mailFrom}>\r\nReply-To: {$replyTo}\r\n"
         . "MIME-Version: 1.0\r\nContent-Type: text/plain; charset=UTF-8\r\n";
     hvf_mail($cfg, $notifyTo, $enc("Nieuwe aanvraag #{$leadId}: {$labels[$lead['type']]} in {$lead['location']}"), $body, $headers, $mailFrom);
 
@@ -190,14 +190,14 @@ if ($isNew) {
         $subj = 'We have received your request';
         $txt = "Dear {$first},\n\nThank you for your request. We have received the details of your property in {$lead['location']}.\n\n"
             . "One of our acquisition managers will contact you personally. Your request is free of obligation and we treat your details confidentially.\n\n"
-            . "If you have any questions in the meantime, simply reply to this email.\n\nKind regards,\n\nHollands Vastgoedfonds\nhttps://hollandsvastgoedfonds.com\n";
+            . "If you have any questions in the meantime, simply reply to this email.\n\nKind regards,\n\nHollandse Vastgoed Combinatie\nhttps://hollandsevastgoedcombinatie.nl\n";
     } else {
         $subj = 'Wij hebben uw aanvraag ontvangen';
         $txt = "Beste {$first},\n\nBedankt voor uw aanvraag. Wij hebben de gegevens van uw object in {$lead['location']} ontvangen.\n\n"
             . "Een van onze acquisitiemanagers neemt persoonlijk contact met u op. Uw aanvraag is vrijblijvend en wij gaan vertrouwelijk om met uw gegevens.\n\n"
-            . "Heeft u in de tussentijd een vraag? Beantwoord dan gewoon deze e-mail.\n\nMet vriendelijke groet,\n\nHollands Vastgoedfonds\nhttps://hollandsvastgoedfonds.com\n";
+            . "Heeft u in de tussentijd een vraag? Beantwoord dan gewoon deze e-mail.\n\nMet vriendelijke groet,\n\nHollandse Vastgoed Combinatie\nhttps://hollandsevastgoedcombinatie.nl\n";
     }
-    $h2 = "From: Hollands Vastgoedfonds <{$mailFrom}>\r\nReply-To: {$notifyTo}\r\n"
+    $h2 = "From: Hollandse Vastgoed Combinatie <{$mailFrom}>\r\nReply-To: {$notifyTo}\r\n"
         . "MIME-Version: 1.0\r\nContent-Type: text/plain; charset=UTF-8\r\nAuto-Submitted: auto-replied\r\n";
     if ($sendConfirmation) hvf_mail($cfg, $replyTo, $enc($subj), $txt, $h2, $mailFrom);
 }

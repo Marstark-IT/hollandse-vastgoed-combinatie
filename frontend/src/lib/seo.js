@@ -20,7 +20,7 @@ export function buildMeta({ title, description, path, locale, alternates, image 
     alternates: {
       canonical: path,
       ...(Object.keys(languages).length > 1 ? { languages } : {}),
-      ...(locale === "nl" ? { types: { "application/rss+xml": [{ url: "/kennisbank/feed.xml", title: "Kennisbank | Hollands Vastgoedfonds" }] } } : {}),
+      ...(locale === "nl" ? { types: { "application/rss+xml": [{ url: "/kennisbank/feed.xml", title: "Kennisbank | Hollandse Vastgoed Combinatie" }] } } : {}),
     },
     openGraph: {
       type,
@@ -57,7 +57,7 @@ export const articleMetadata = (a) =>
 export const regionMetadata = (r) =>
   buildMeta({
     title: r.slug === "nijmegen" ? "Vastgoed verkopen Nijmegen-Arnhem" : `Vastgoed verkopen in ${r.name}`,
-    description: `Vastgoed verkopen in ${r.name}? Hollands Vastgoedfonds koopt woningen, portefeuilles en bedrijfspanden direct. Geen tussenpersoon, geen courtage.`,
+    description: `Vastgoed verkopen in ${r.name}? Hollandse Vastgoed Combinatie koopt woningen, portefeuilles en bedrijfspanden direct. Geen tussenpersoon, geen courtage.`,
     path: regionPath(r.slug),
     locale: "nl",
     alternates: { nl: regionPath(r.slug) },
@@ -99,7 +99,7 @@ export const organizationLd = (locale) => ({
   "@id": `${COMPANY.url}/#organization`,
   name: COMPANY.name,
   url: COMPANY.url,
-  logo: { "@type": "ImageObject", url: `${COMPANY.url}/logo.png`, width: 600, height: 188 },
+  logo: { "@type": "ImageObject", url: `${COMPANY.url}/logo.png`, width: 600, height: 165 },
   image: `${COMPANY.url}/og/hero-wide.jpg`,
   email: COMPANY.email,
   description: t(locale).meta.home.description,

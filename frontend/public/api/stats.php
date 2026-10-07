@@ -1,6 +1,6 @@
 <?php
 // Operations dashboard: traffic, sources, conversion and the lead list with a
-// status per lead. Access: https://hollandsvastgoedfonds.com/api/stats.php
+// status per lead. Access: https://hollandsevastgoedcombinatie.nl/api/stats.php
 // The browser asks for a login: any username, password = export_key from
 // config.php (HTTP Basic, same as leads.php, so the key never sits in a URL).
 declare(strict_types=1);
@@ -17,7 +17,7 @@ if ($given === '' && stripos($auth, 'basic ') === 0) {
     $given = explode(':', (string)base64_decode(substr($auth, 6)), 2)[1] ?? '';
 }
 if ($key === '' || !hash_equals($key, $given)) {
-    header('WWW-Authenticate: Basic realm="Hollands dashboard", charset="UTF-8"');
+    header('WWW-Authenticate: Basic realm="Hollandse dashboard", charset="UTF-8"');
     http_response_code(401);
     exit;
 }
@@ -70,7 +70,7 @@ $list = $q($leadsDb, "SELECT id, created_at, type, location, name, email, phone,
 
 ?><!doctype html>
 <html lang="nl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="robots" content="noindex,nofollow"><title>Dashboard | Hollands Vastgoedfonds</title>
+<meta name="robots" content="noindex,nofollow"><title>Dashboard | Hollandse Vastgoed Combinatie</title>
 <style>
 *{box-sizing:border-box}body{margin:0;font:16px/1.5 system-ui,sans-serif;background:#F3F4F4;color:#1E2A33}
 header{background:#0A2B46;color:#fff;padding:18px 24px;display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between}
@@ -84,7 +84,7 @@ td,th{padding:7px 8px;border-bottom:1px solid #E4E8EB;text-align:left;vertical-a
 .bars div.l{background:#C75B0B}.num{text-align:right}.wrap{overflow-x:auto}select,button{font:inherit;padding:4px 6px}
 .muted{color:#4A5561;font-size:13px}.pill{display:inline-block;padding:1px 8px;border-radius:99px;background:#E8F0F6;font-size:12px}
 </style></head><body>
-<header><strong>Hollands Vastgoedfonds · Dashboard</strong>
+<header><strong>Hollandse Vastgoed Combinatie · Dashboard</strong>
 <nav>Periode: <?php foreach ([7, 30, 90, 365] as $d): ?><a href="?d=<?= $d ?>"<?= $d === $days ? ' style="font-weight:700;text-decoration:none"' : '' ?>><?= $d ?>d</a><?php endforeach ?>
  · <a href="leads.php">CSV export</a></nav></header>
 <main>

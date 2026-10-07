@@ -24,7 +24,7 @@ if ($action === 'test') {
         'type' => 'portefeuille', 'location' => '1017 AB Amsterdam', 'address' => 'Voorbeeldstraat 1', 'occupancy' => 'verhuurd',
         'units' => '12', 'condition' => 'redelijk', 'timeframe' => '3m', 'price' => 'circa 3 miljoen', 'contact_pref' => 'telefoon',
         'name' => 'Test Lead', 'email' => 'test@example.com', 'phone' => '+31 6 12345678', 'locale' => 'nl',
-        'message' => 'Dit is een testbericht van Hollands Vastgoedfonds.', 'source' => 'api-test', 'page' => '/',
+        'message' => 'Dit is een testbericht van Hollandse Vastgoed Combinatie.', 'source' => 'api-test', 'page' => '/',
         'landing_page' => '/', 'referrer' => '', 'utm_source' => '', 'utm_medium' => '', 'utm_campaign' => '', 'utm_term' => '',
         'utm_content' => '', 'gclid' => '', 'gbraid' => '', 'wbraid' => '', 'fbclid' => '', 'msclkid' => '', 'consent_at' => crm_now(),
     ]);

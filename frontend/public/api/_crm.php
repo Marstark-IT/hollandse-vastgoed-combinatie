@@ -141,7 +141,7 @@ function api_auth(): void {
     $auth = (string)($_SERVER['HTTP_AUTHORIZATION'] ?? $_SERVER['REDIRECT_HTTP_AUTHORIZATION'] ?? '');
     $given = stripos($auth, 'bearer ') === 0 ? trim(substr($auth, 7)) : (string)($_SERVER['HTTP_X_API_KEY'] ?? '');
     if ($key === '' || $given === '' || !hash_equals($key, $given)) {
-        header('WWW-Authenticate: Bearer realm="hollandsvastgoedfonds-api"');
+        header('WWW-Authenticate: Bearer realm="hollandsevastgoedcombinatie-api"');
         api_error(401, 'unauthorized', 'Missing or invalid API key.');
     }
     $f = crm_data_dir() . '/api-rate.json';
@@ -215,7 +215,7 @@ function crm_post(string $event, array $data, ?string $url = null): array {
         CURLOPT_RESOLVE => [$target['host'] . ':443:' . $target['ip']],
         CURLOPT_HTTPHEADER => [
             'Content-Type: application/json',
-            'User-Agent: HollandsVastgoedfonds-Webhooks/1.0',
+            'User-Agent: HollandseVastgoedCombinatie-Webhooks/1.0',
             'X-HVF-Event: ' . $event,
             'X-HVF-Delivery: ' . $delivery,
             'X-HVF-Signature: ' . crm_sign($body, $ts),

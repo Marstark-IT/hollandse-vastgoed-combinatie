@@ -65,7 +65,7 @@ More city pages, each with its own market notes (not copies): Haarlem, Leiden, B
 
 ## 5. Off-page plan (needs the owner)
 
-1. **Google Search Console**: verify the domain (DNS TXT record) and submit `https://hollandsvastgoedfonds.com/sitemap.xml`. The site supports a `NEXT_PUBLIC_GSC_VERIFICATION` meta tag as an alternative.
+1. **Google Search Console**: verify the domain (DNS TXT record) and submit `https://hollandsevastgoedcombinatie.nl/sitemap.xml`. The site supports a `NEXT_PUBLIC_GSC_VERIFICATION` meta tag as an alternative.
 2. **Bing Webmaster Tools**: import from Search Console (IndexNow already pings Bing).
 3. **Google Business Profile**: needs a real address (office or service-area business). Category: "Vastgoedbelegger" or "Vastgoedbedrijf". Use the exact same name, address and email as the website footer.
 4. **KvK number and address on the website**: required by Dutch law and a trust signal for Google. Send them and they go in the footer and the Organization schema.
@@ -76,6 +76,6 @@ More city pages, each with its own market notes (not copies): Haarlem, Leiden, B
 
 ## 6. How to keep it at 100
 
-- New page: add its title and description in `src/data/content.js` (title at most 35 characters, because " | Hollands Vastgoedfonds" adds 25; description 110 to 160 characters).
+- New page: add its title and description in `src/data/content.js` (title at most 28 characters, because " | Hollandse Vastgoed Combinatie" adds 32; description 110 to 160 characters).
 - Bump `SITE_UPDATED` in `src/data/site.js` when page copy changes.
 - Run the crawler and Lighthouse before a big release (see the SEO section of the README).

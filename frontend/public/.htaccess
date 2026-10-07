@@ -1,4 +1,4 @@
-# Hollands Vastgoedfonds: static Next.js export on LiteSpeed.
+# Hollandse Vastgoed Combinatie: static Next.js export on LiteSpeed.
 Options -Indexes
 DirectoryIndex index.html index.php
 
@@ -17,7 +17,7 @@ RewriteRule ^api/v1/health/?$ api/v1/health.php [L,QSA]
 # HTTPS and apex domain.
 RewriteCond %{HTTPS} !=on [OR]
 RewriteCond %{HTTP_HOST} ^www\. [NC]
-RewriteRule ^ https://hollandsvastgoedfonds.com%{REQUEST_URI} [L,R=301]
+RewriteRule ^ https://hollandsevastgoedcombinatie.nl%{REQUEST_URI} [L,R=301]
 
 # /path/index.html -> /path/ (one canonical URL per page).
 RewriteCond %{THE_REQUEST} \s/+(.*/)?index\.html[\s?] [NC]

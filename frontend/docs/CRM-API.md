@@ -1,10 +1,10 @@
-# Hollands Vastgoedfonds: Lead API and Webhooks (CRM integration)
+# Hollandse Vastgoed Combinatie: Lead API and Webhooks (CRM integration)
 
 > Public reference copy without credentials. The CRM developer receives the
 > version with the live API key and webhook secret separately.
 
 **Instructions for Claude (or any AI coding assistant) reading this file:**
-You are integrating a CRM with the lead intake of hollandsvastgoedfonds.com.
+You are integrating a CRM with the lead intake of hollandsevastgoedcombinatie.nl.
 Everything you need is in this document. Implement, in the CRM codebase:
 
 1. Store `HVF_API_KEY` and `HVF_WEBHOOK_SECRET` (section 2) as environment
@@ -27,7 +27,7 @@ Everything you need is in this document. Implement, in the CRM codebase:
 
 ## 1. Overview
 
-Every form on hollandsvastgoedfonds.com (homepage, property pages, city pages,
+Every form on hollandsevastgoedcombinatie.nl (homepage, property pages, city pages,
 articles, contact page, offer page) uses **one** three-step lead form. Each
 submission is stored in the website database and then made available to the
 CRM in two ways:
@@ -45,14 +45,14 @@ re-sync with `since_id`.
 
 | Name | Value | Used for |
 |---|---|---|
-| Base URL | `https://hollandsvastgoedfonds.com/api/v1` | All REST calls |
+| Base URL | `https://hollandsevastgoedcombinatie.nl/api/v1` | All REST calls |
 | `HVF_API_KEY` | `<provided separately>` | REST API authentication (Bearer token) |
 | `HVF_WEBHOOK_SECRET` | `<provided separately>` | Verifying webhook signatures (HMAC-SHA256) |
 
 Suggested `.env` for the CRM:
 
 ```env
-HVF_API_BASE=https://hollandsvastgoedfonds.com/api/v1
+HVF_API_BASE=https://hollandsevastgoedcombinatie.nl/api/v1
 HVF_API_KEY=<provided separately>
 HVF_WEBHOOK_SECRET=<provided separately>
 ```
@@ -91,7 +91,7 @@ Error format (all errors):
 `GET /api/v1/health`
 
 ```bash
-curl -s https://hollandsvastgoedfonds.com/api/v1/health -H "Authorization: Bearer $HVF_API_KEY"
+curl -s https://hollandsevastgoedcombinatie.nl/api/v1/health -H "Authorization: Bearer $HVF_API_KEY"
 ```
 
 ```json
@@ -113,7 +113,7 @@ Results are ordered by `id` ascending. Paginate with `meta.next_since_id` while
 `meta.has_more` is `true`:
 
 ```bash
-curl -s "https://hollandsvastgoedfonds.com/api/v1/leads?since_id=0&limit=100" -H "Authorization: Bearer $HVF_API_KEY"
+curl -s "https://hollandsevastgoedcombinatie.nl/api/v1/leads?since_id=0&limit=100" -H "Authorization: Bearer $HVF_API_KEY"
 ```
 
 ```json
@@ -131,7 +131,7 @@ curl -s "https://hollandsvastgoedfonds.com/api/v1/leads?since_id=0&limit=100" -H
 fields are optional; send at least one.
 
 ```bash
-curl -s -X PATCH https://hollandsvastgoedfonds.com/api/v1/leads/23 \
+curl -s -X PATCH https://hollandsevastgoedcombinatie.nl/api/v1/leads/23 \
   -H "Authorization: Bearer $HVF_API_KEY" -H "Content-Type: application/json" \
   -d '{"status":"gecontacteerd","crm_id":"CRM-000123"}'
 ```
@@ -149,11 +149,11 @@ status is also shown in the website owner's dashboard.
 | `POST /api/v1/webhook/redeliver` | `{"id": 23}` or `{"all_pending": true}` | Push a lead again, or retry everything pending/failed |
 
 ```bash
-curl -s -X PUT https://hollandsvastgoedfonds.com/api/v1/webhook \
+curl -s -X PUT https://hollandsevastgoedcombinatie.nl/api/v1/webhook \
   -H "Authorization: Bearer $HVF_API_KEY" -H "Content-Type: application/json" \
   -d '{"url":"https://crm.example.com/webhooks/hvf"}'
 
-curl -s -X POST https://hollandsvastgoedfonds.com/api/v1/webhook/test -H "Authorization: Bearer $HVF_API_KEY"
+curl -s -X POST https://hollandsevastgoedcombinatie.nl/api/v1/webhook/test -H "Authorization: Bearer $HVF_API_KEY"
 # {"data":{"delivered":true,"result":"HTTP 200"}}
 ```
 
@@ -177,7 +177,7 @@ to a public IP address (private and loopback addresses are refused).
 | `X-HVF-Event` | `lead.created` | `lead.created` for real leads, `lead.test` for tests |
 | `X-HVF-Delivery` | `ac9bd9d67354ba0881a731fdb33c...` | Unique id of this delivery attempt |
 | `X-HVF-Signature` | `t=1790227584,v1=5f2b...` | Timestamp and HMAC signature |
-| `User-Agent` | `HollandsVastgoedfonds-Webhooks/1.0` | |
+| `User-Agent` | `HollandseVastgoedCombinatie-Webhooks/1.0` | |
 
 Body:
 
@@ -348,7 +348,7 @@ Suggested CRM status mapping: `nieuw` = New, `gecontacteerd` = Contacted,
 
 - Validates every field, blocks bots (honeypot) and limits 6 submissions per IP per 10 minutes.
 - Stores the lead (SQLite, outside the web root) plus a CSV backup.
-- Emails the team at hello@hollandsvastgoedfonds.com and sends the seller a confirmation.
+- Emails the team at hello@hollandsevastgoedcombinatie.nl and sends the seller a confirmation.
 - Pushes the lead to the CRM webhook and exposes it on the API.
 - The owner's dashboard (`/api/stats.php`) shows per lead whether the CRM received it (`delivered`, `pending`, `failed`) and the `crm_id`.
 
@@ -366,6 +366,6 @@ of the last contact (the website's privacy statement promises this).
 - [ ] `PUT /api/v1/webhook` set to the CRM endpoint; `GET /api/v1/webhook` shows it.
 - [ ] `POST /api/v1/webhook/test` returns `delivered: true` and the CRM logs a verified `lead.test`.
 - [ ] Backfill job ran: `GET /api/v1/leads?since_id=0` fully imported (follow `has_more`).
-- [ ] A real test lead submitted on https://hollandsvastgoedfonds.com/vastgoed-aanbieden/ appears in the CRM within seconds.
+- [ ] A real test lead submitted on https://hollandsevastgoedcombinatie.nl/vastgoed-aanbieden/ appears in the CRM within seconds.
 - [ ] Status change in the CRM calls `PATCH /api/v1/leads/{id}` and the change is visible via `GET /api/v1/leads/{id}`.
 - [ ] Test leads deleted in the CRM, and the website owner asked to delete them on the website side.

@@ -1,4 +1,4 @@
-# Security audit: hollandsvastgoedfonds.com
+# Security audit: hollandsevastgoedcombinatie.nl
 
 **Date:** 24 September 2026
 **Scope:** the repo, the live site, the Hostinger account (shell access, no root) and the GitHub repo. There are no containers or servers of our own, so container and host-hardening checks do not apply.
@@ -23,7 +23,7 @@ A stranger cannot read your leads, break into the server through the site, or pl
 ## Still needs you
 
 1. **Second SSH key on the hosting account:** `shifatsikder@…sonsbidding` has full access to all five sites and to the leads. If Shifat should not have that, remove the key in hPanel → SSH Access.
-2. **Shared account:** four WordPress sites (klaverhorst, levenlily, marstark, tamzidmolla) run as the same user as this site. If one WordPress plugin is hacked, the attacker can read the Hollands leads. For seller data, a separate hosting account is the right fix. At minimum, keep those WordPress sites and plugins updated.
+2. **Shared account:** four WordPress sites (klaverhorst, levenlily, marstark, tamzidmolla) run as the same user as this site. If one WordPress plugin is hacked, the attacker can read the Hollandse leads. For seller data, a separate hosting account is the right fix. At minimum, keep those WordPress sites and plugins updated.
 3. **Email spoofing:** done on 24 Sep (see re-audit below): DMARC is now `p=quarantine`. A CAA record is still optional.
 4. **Branch protection:** the repo is now public, so GitHub branch protection is free. Turn on "require a pull request" for `main` if more people get write access. There are no secrets in the repo.
 5. The production deploy (commits b942f33, fb5c322) keeps every fix, re-tested live. One "SECURITY TEST" notification email reached hello@ on 24 Sep at 02:28 UTC. It came from our testing and can be deleted.
@@ -51,5 +51,5 @@ A stranger cannot read your leads, break into the server through the site, or pl
 
 **Still needs you:**
 1. Mark one "Nieuwe aanvraag" email as **Not spam** in webmail. The mailbox files mail it sends to itself as junk even though it now passes DKIM/DMARC.
-2. The shared hosting account (point 2 above) is still the biggest risk: `marstark.com` and `tamzidmolla.com` run WordPress 6.9.9 (older than the 7.x on the other sites). Update them, or move Hollands to its own account.
+2. The shared hosting account (point 2 above) is still the biggest risk: `marstark.com` and `tamzidmolla.com` run WordPress 6.9.9 (older than the 7.x on the other sites). Update them, or move Hollandse to its own account.
 3. Port 3306 (MySQL) is open on the shared server IP `77.37.52.88`. That is Hostinger's shared database server; this site has no MySQL database, so nothing of ours is exposed. Keep "Remote MySQL" in hPanel empty.

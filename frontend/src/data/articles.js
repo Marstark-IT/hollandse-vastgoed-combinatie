@@ -25,7 +25,7 @@ export const ARTICLES = [
         h: "Wie koopt een verhuurde woning?",
         p: [
           "Een particuliere koper die zelf wil wonen, heeft weinig aan een woning met een zittende huurder. Daardoor is de groep kopers kleiner. Verhuurde woningen worden vooral gekocht door beleggers die de huurinkomsten waarderen.",
-          "Een directe koper zoals Hollands Vastgoedfonds koopt verhuurde woningen als normaal onderdeel van de portefeuille. U hoeft de woning dus niet eerst leeg te krijgen.",
+          "Een directe koper zoals Hollandse Vastgoed Combinatie koopt verhuurde woningen als normaal onderdeel van de portefeuille. U hoeft de woning dus niet eerst leeg te krijgen.",
         ],
       },
       {
@@ -51,7 +51,7 @@ export const ARTICLES = [
         ],
       },
       {
-        h: "Zo verloopt de verkoop aan Hollands Vastgoedfonds",
+        h: "Zo verloopt de verkoop aan Hollandse Vastgoed Combinatie",
         p: [
           "U deelt de basisgegevens via het formulier. Wij nemen persoonlijk contact op, bekijken de woning in overleg met de huurder en doen een schriftelijk voorstel. Gaat u akkoord, dan regelt een onafhankelijke notaris de levering op een datum die u uitkomt.",
         ],
@@ -140,7 +140,7 @@ export const ARTICLES = [
       {
         h: "Verhuurd geërfd vastgoed",
         p: [
-          "Is het geërfde object verhuurd, dan loopt het huurcontract gewoon door. Hollands Vastgoedfonds koopt verhuurd vastgoed als normaal onderdeel van de portefeuille.",
+          "Is het geërfde object verhuurd, dan loopt het huurcontract gewoon door. Hollandse Vastgoed Combinatie koopt verhuurd vastgoed als normaal onderdeel van de portefeuille.",
         ],
       },
       {
@@ -332,7 +332,7 @@ export const ARTICLES = [
       {
         h: "Wat betekent dit voor u als verkoper?",
         p: [
-          "U hoeft de huurder niet uit te kopen of te laten vertrekken om te verkopen. U verkoopt het object mét huurder. Voor een koper als Hollands Vastgoedfonds is dat de normale gang van zaken.",
+          "U hoeft de huurder niet uit te kopen of te laten vertrekken om te verkopen. U verkoopt het object mét huurder. Voor een koper als Hollandse Vastgoed Combinatie is dat de normale gang van zaken.",
         ],
       },
     ],
@@ -364,7 +364,7 @@ export const ARTICLES = [
       {
         h: "Herontwikkeling en transformatie",
         p: [
-          "Soms zit de waarde niet in het huidige gebruik, maar in wat het pand kan worden. Een leeg kantoor kan woningen worden, een oud schoolgebouw appartementen. Hollands Vastgoedfonds beoordeelt dat potentieel zelf, ook als er nog geen vergunning is.",
+          "Soms zit de waarde niet in het huidige gebruik, maar in wat het pand kan worden. Een leeg kantoor kan woningen worden, een oud schoolgebouw appartementen. Hollandse Vastgoed Combinatie beoordeelt dat potentieel zelf, ook als er nog geen vergunning is.",
         ],
       },
       {

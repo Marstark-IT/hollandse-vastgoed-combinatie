@@ -1,10 +1,10 @@
 // Company facts. Phone, address and KvK are intentionally left out until the
 // client supplies them; components only render fields that are set.
 export const COMPANY = {
-  name: "Hollands Vastgoedfonds",
-  email: "hello@hollandsvastgoedfonds.com",
-  emailHref: "mailto:hello@hollandsvastgoedfonds.com",
-  url: "https://hollandsvastgoedfonds.com",
+  name: "Hollandse Vastgoed Combinatie",
+  email: "hello@hollandsevastgoedcombinatie.nl",
+  emailHref: "mailto:hello@hollandsevastgoedcombinatie.nl",
+  url: "https://hollandsevastgoedcombinatie.nl",
   phone: null,
   kvk: null,
   address: null,

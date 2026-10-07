@@ -63,7 +63,7 @@ const nl = {
     {
       title: "Algemeen",
       items: [
-        { q: "Bent u een makelaar?", a: "Nee. Hollands Vastgoedfonds koopt vastgoed voor eigen rekening en risico. Wij treden zelf op als kopende partij en brengen u niet in contact met andere kopers." },
+        { q: "Bent u een makelaar?", a: "Nee. Hollandse Vastgoed Combinatie koopt vastgoed voor eigen rekening en risico. Wij treden zelf op als kopende partij en brengen u niet in contact met andere kopers." },
         { q: "Welk vastgoed kopen jullie?", a: "Woningen, appartementencomplexen, verhuurde woningportefeuilles, kantoren, winkels, mixed-use panden, bedrijfshallen, light-industrial en logistiek vastgoed. Ook objecten met herontwikkelingspotentieel." },
         { q: "Kopen jullie in heel Nederland?", a: "Wij investeren in Nederland en daarbuiten, per periode in vooraf gekozen regio's. Ligt uw object buiten een actieve regio, dan registreren wij het en nemen wij contact op zodra dat verandert." },
         { q: "Kopen jullie ook complete portefeuilles?", a: "Ja. Wij kopen zowel losse objecten als omvangrijke portefeuilles. Bij een portefeuille beoordelen wij elk object en de samenhang als geheel." },
@@ -190,7 +190,7 @@ const en = {
     {
       title: "General",
       items: [
-        { q: "Are you an estate agent?", a: "No. Hollands Vastgoedfonds buys property for its own account and risk. We act as the buyer ourselves and do not pass you on to other buyers." },
+        { q: "Are you an estate agent?", a: "No. Hollandse Vastgoed Combinatie buys property for its own account and risk. We act as the buyer ourselves and do not pass you on to other buyers." },
         { q: "What property do you buy?", a: "Homes, apartment buildings, let residential portfolios, offices, shops, mixed-use buildings, business units, light-industrial and logistics property. Also assets with redevelopment potential." },
         { q: "Do you buy throughout the Netherlands?", a: "We invest in the Netherlands and beyond, in regions selected per period. If your property is outside an active region, we register it and contact you as soon as that changes." },
         { q: "Do you buy complete portfolios?", a: "Yes. We buy single assets as well as large portfolios. For a portfolio we assess each asset and the whole." },

@@ -1,10 +1,10 @@
-# Hollands Vastgoedfonds: Competitor Analysis
+# Hollandse Vastgoed Combinatie: Competitor Analysis
 
 Researched: 2026-09-24
 
 ## Niche
 
-Hollands Vastgoedfonds buys property directly, for its own account and risk, in the Netherlands. It buys residential, commercial and light-industrial property, both single buildings and portfolios. It is not a broker. It works with regional mandates and promises fast closing.
+Hollandse Vastgoed Combinatie buys property directly, for its own account and risk, in the Netherlands. It buys residential, commercial and light-industrial property, both single buildings and portfolios. It is not a broker. It works with regional mandates and promises fast closing.
 
 Two groups of competitors:
 
@@ -22,12 +22,12 @@ Two groups of competitors:
   - Stienstra/Coriovallum (Dec 2022): 217 homes
   - Rotterdam Lijnbaan (Dec 2022): 242 apartments for about €70m
 - Criteria: rental yield, vacant value, building condition, surroundings. Geographic spread is not a goal in itself.
-- Closest match to the Hollands model. It is a long-term, own-account, mixed-asset buyer of portfolios.
+- Closest match to the Hollandse model. It is a long-term, own-account, mixed-asset buyer of portfolios.
 - Weakness: no dedicated seller-acquisition funnel online.
 
 ## Top 5 competitors
 
-| # | Company | Tier | Buys for | Assets | Overlap with Hollands |
+| # | Company | Tier | Buys for | Assets | Overlap with Hollandse |
 |---|---|---|---|---|---|
 | 1 | **Urban Interest** | A | Own account | Residential, retail, offices, logistics | Very high (market leader) |
 | 2 | **Van Herk Groep** (Rotterdam, now owned by Pleijsier) | A | Own account | About €2bn, about 60% residential, also commercial | High (scale benchmark) |
@@ -42,17 +42,17 @@ Two groups of competitors:
 - **Sons Real Estate**: claims 100+ properties and 85 customers. Also sells some properties on to its investor network, so it is partly an intermediary.
 - **Burgstate**: also develops property itself. The seller pays no notary fees.
 
-## Positioning gaps Hollands can use
+## Positioning gaps Hollandse can use
 
 1. **Institutional tone plus seller funnel.** Tier A firms have capital but no seller funnel. Tier B firms have the funnel but a "we buy your house" tone. Nobody combines both.
-2. **Pure principal.** Sons and Domicus also broker to their networks. Hollands can say "100% own account, never a broker" and back it with proof: completed deals and the regional mandate.
+2. **Pure principal.** Sons and Domicus also broker to their networks. Hollandse can say "100% own account, never a broker" and back it with proof: completed deals and the regional mandate.
 3. **Light industrial and special situations.** Hardly any Tier B competitor targets business halls or logistics sites explicitly.
 4. **Visible regional mandates.** Showing "capital now available in region X" is new in this market and creates urgency.
 
 ## Issues to fix in the site copy
 
-- The "Directe acquisitie" section says **"Northbridge"** instead of "Hollands Vastgoedfonds". This is leftover template text and must be fixed.
-- The name contains **"fonds"**. In NL, offering a fund to investors requires an AFM licence (AIFMD). Hollands only buys for its own account, so check with legal that the name does not suggest a licensed investment fund.
+- The "Directe acquisitie" section says **"Northbridge"** instead of "Hollandse Vastgoed Combinatie". This is leftover template text and must be fixed.
+- Resolved: the old name "Hollands Vastgoedfonds" contained **"fonds"**, which in NL suggests a licensed investment fund (AFM, AIFMD). The company now trades as Hollandse Vastgoed Combinatie.
 
 ## Sources
 

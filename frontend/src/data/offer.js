@@ -3,7 +3,7 @@
 const nl = {
   meta: {
     title: "Vastgoed aanbieden",
-    description: "Bied uw woning, portefeuille of bedrijfspand vrijblijvend aan bij Hollands Vastgoedfonds. In drie korte stappen, u ontvangt direct een bevestiging.",
+    description: "Bied uw woning, portefeuille of bedrijfspand vrijblijvend aan bij Hollandse Vastgoed Combinatie. In drie korte stappen, u ontvangt direct een bevestiging.",
   },
   title: "Bied uw vastgoed aan",
   text: "In drie korte stappen. Vrijblijvend en vertrouwelijk.",
@@ -41,7 +41,7 @@ const nl = {
     timeframe: "Maak een keuze.",
   },
   aside: {
-    title: "Waarom Hollands Vastgoedfonds",
+    title: "Waarom Hollandse Vastgoed Combinatie",
     points: ["Wij kopen zelf, geen tussenpersoon", "Geen courtage", "Geen financieringsvoorbehoud", "Verhuurd of leeg, in elke staat"],
     nextTitle: "Na uw aanvraag",
     next: ["Direct een bevestiging per e-mail", "Persoonlijk contact met een acquisitiemanager", "Een schriftelijk voorstel, u beslist in alle rust"],
@@ -53,7 +53,7 @@ const nl = {
 const en = {
   meta: {
     title: "Offer your property",
-    description: "Offer your home, portfolio or business premises to Hollands Vastgoedfonds without obligation. Three short steps, instant confirmation.",
+    description: "Offer your home, portfolio or business premises to Hollandse Vastgoed Combinatie without obligation. Three short steps, instant confirmation.",
   },
   title: "Offer your property",
   text: "Three short steps. Without obligation, in confidence.",
@@ -91,7 +91,7 @@ const en = {
     timeframe: "Please choose one.",
   },
   aside: {
-    title: "Why Hollands Vastgoedfonds",
+    title: "Why Hollandse Vastgoed Combinatie",
     points: ["We buy ourselves, no agent", "No commission", "No financing condition", "Let or vacant, in any condition"],
     nextTitle: "After your request",
     next: ["Instant confirmation by email", "Personal contact with an acquisition manager", "A written proposal, you decide in your own time"],
